@@ -29,7 +29,7 @@ function appendKitten(name){
   var realArray = [...kittens,name];
   return realArray;
 }
-function prepenedKitten(name){
+function prependKitten(name){
 return  [name,...kittens];
   
 }
