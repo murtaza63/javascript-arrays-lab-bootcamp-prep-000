@@ -26,6 +26,6 @@ function removeLastKitten(name){
   return newArray;
 }
 function appendKitten(name){
-  var realArray = kittens.push('kitten');
+  var realArray = [...kittens,name];
   return realArray;
 }
