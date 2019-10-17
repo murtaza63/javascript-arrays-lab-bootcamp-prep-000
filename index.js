@@ -30,6 +30,6 @@ function appendKitten(name){
   return realArray;
 }
 function prepenedKitten(name){
-  var loveArray = [name,...kittens];
-  return loveArray;
+return  [name,...kittens];
+  
 }
